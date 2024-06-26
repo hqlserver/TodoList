@@ -16,7 +16,7 @@ export const Title = styled(Box)(() => ({
 	WebkitBoxOrient: "vertical",
 	overflow: "hidden",
 	textOverflow: "ellipsis",
-	wordWrap: "anywhere",
+	wordWrap: "break-word",
 	color: "inherit",
 }));
 export const Desc = styled(Box)(() => ({
@@ -27,7 +27,7 @@ export const Desc = styled(Box)(() => ({
 	WebkitBoxOrient: "vertical",
 	overflow: "hidden",
 	textOverflow: "ellipsis",
-	wordWrap: "anywhere",
+	wordWrap: "break-word",
 	color: "inherit",
 }));
 export const Block = styled(Box)(() => ({
